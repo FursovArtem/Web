@@ -6,7 +6,11 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09648363-8431-42B7-B0EF-FE87390F5122}"
 	ProjectSection(SolutionItems) = preProject
 		C++ DataTypes.html = C++ DataTypes.html
+		CSS.html = CSS.html
 		index.html = index.html
+		Lists.html = Lists.html
+		LogicalFormattingDescriptors.html = LogicalFormattingDescriptors.html
+		Styles.html = Styles.html
 	EndProjectSection
 EndProject
 Global
