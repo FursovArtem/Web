@@ -3,7 +3,8 @@
 <html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=1293, initial-scale=1">
+    <meta name="viewport" content="width=1295, initial-scale=1">
+    <meta name="viewport" content="height=810, initial-scale=1">
     <title>Сборщик мебели Астрахань</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -62,8 +63,11 @@
 
     <script>
         var siteWidth = 1293;
-        var scale = screen.width /siteWidth;
-        document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + siteWidth + ', initial-scale=' + scale + '');
+        var siteHeight = 810;
+        var scaleW = screen.width / siteWidth;
+        var scaleH = screen.height / siteHeight;
+        document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + siteWidth + ', initial-scale=' + scaleW + '');
+        document.querySelector('meta[name="viewport"]').setAttribute('content', 'height=' + siteHeight + ', initial-scale=' + scaleH + '');
     </script>
 </body>
 </html>
