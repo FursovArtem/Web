@@ -1,0 +1,33 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto;
+    background-color: #1B1B1B;
+    color: #F7F7F7;
+}
+
+h1 {
+    font-family: Playwrite CU, Arial;
+}
+
+p {
+    font-size: 18px;
+    background-color: #00000044;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td, table th {
+    border: 1px solid white;
+}
