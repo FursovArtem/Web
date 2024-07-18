@@ -14,11 +14,11 @@ body {
     min-height: 100%;
     padding: 0;
     margin: 0;
+    background: url(images/living-example-01.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .main {
-    background: url(images/living-example-01.png) no-repeat center center fixed;
-    background-size: cover;
     color: #F7F7F7;
     border: 1px solid black;
 }
