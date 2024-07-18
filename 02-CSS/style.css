@@ -1,0 +1,35 @@
+﻿body {
+    background-color: #1B1B1B;
+    font-family: 'Comic Sans MS';
+    font-size: 140%;
+}
+
+ul {
+    color: #A9F077;
+    list-style: none;
+}
+
+ul li::before, ol ul li::before {
+    content: '';
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-image: url(litecoin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ol {
+    color: #EBF077;
+    list-style: none;
+}
+
+ol li::before {
+    content: '';
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-image: url(bitcoin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

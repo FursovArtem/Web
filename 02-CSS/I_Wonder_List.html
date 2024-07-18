@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>I wonder if it's actual homework</title>
+    <style>
+        body {
+            background-color: #1B1B1B;
+            color: #F7F7F7;
+            font-family: 'Comic Sans MS';
+            font-size: 140%;
+        }
+
+        .round-yellow, .round-red, .checkmark, .checkmark2, .x-mark {
+            list-style: none;
+        }
+
+        .round-yellow li::before, .round-red li::before, .checkmark li::before, .checkmark2 li::before, x-mark li::before {
+            content: '';
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-inline: 8px;
+            vertical-align: sub;
+        }
+
+        .round-yellow li::before {
+            background-image: url(round_yellow.png);
+        }
+
+        .round-red li::before {
+            background-image: url(round_red.png);
+        }
+
+        .checkmark li::before {
+            background-image: url(checkmark.png);
+        }
+
+        .checkmark2 li::before {
+            background-image: url(checkmark2.png);
+        }
+
+        .x-mark li::before {
+            background-image: url(x-mark.png);
+        }
+
+    </style>
+</head>
+<body>
+    <ol type="I">
+        <li style="color: #FF6E6E">
+            Photoshop
+            <ol type="a" style="color: #F7F7F7">
+                <li>Интерфейс</li>
+                <li>Эффекты</li>
+                <li>Инструменты</li>
+                <li>Практика</li>
+            </ol>
+        </li>
+        <li style="color: #FFE96E">
+            Illustrator
+            <ol type="a" style="color: #F7F7F7">
+                <li>Интерфейс</li>
+                <li>Инструменты</li>
+                <li>Практика</li>
+            </ol>
+        </li>
+        <li style="color: #ACFF6E">
+            Верстка
+            <ol type="a" style="color: #F7F7F7">
+                <li>
+                    XHTML
+                    <ul class="round-yellow">
+                        <li>Основы</li>
+                        <li>
+                            Способы верстки
+                            <ul class="checkmark">
+                                <li>Таблицы</li>
+                                <li>Фреймы</li>
+                                <li>Верстка тегами div</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    CSS
+                    <ol class="round-yellow">
+                        <li>Основы</li>
+                        <li>Перечень свойств</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li style="color: #6EFFFD">
+            Flash
+            <ol type="a" style="color: #F7F7F7">
+                <li>Анимация</li>
+                <li>Action Script</li>
+            </ol>
+        </li>
+        <li style="color: #AE6EFF">
+            CMS
+            <ol type="a" style="color: #F7F7F7">
+                <li>
+                    WordPress
+                    <ul class="round-red">
+                        <li>Установка</li>
+                        <li>
+                            Основы работы
+                            <ul class="checkmark2">
+                                <li>Интерфейс</li>
+                                <li>Шаблоны</li>
+                                <li>Контент</li>
+                                <li>Плагины</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Joomla
+                    <ul class="round-red">
+                        <li>Установка</li>
+                        <li>
+                            Основы работы
+                            <ul class="checkmark2">
+                                <li>Интерфейс</li>
+                                <li>Шаблоны</li>
+                                <li>Контент</li>
+                                <li>
+                                    Расширения:
+                                    <ul class="x-mark">
+                                        <li>Компоненты</li>
+                                        <li>Модули</li>
+                                        <li>Плагины</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>
