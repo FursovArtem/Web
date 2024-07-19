@@ -1,0 +1,38 @@
+﻿body {
+    background-color: #1B1B1B;
+}
+
+table {
+    background-color: #9AFFF4;
+    border-collapse: separate;
+    border: 5px solid white;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+tr td {
+    width: 80px;
+    height: 25px;
+}
+
+.yellow {
+    background-color: #F8DF2D;
+}
+
+.red {
+    background-color: #F73131;
+}
+
+.olive {
+    background-color: #74881C;
+}
+
+.brown {
+    background-color: #6F4807;
+}
+
+.blue {
+    background-color: #105497;
+}

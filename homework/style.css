@@ -1,0 +1,79 @@
+﻿html, body {
+    font-family: sans-serif;
+}
+
+element.style {
+    padding: 0 0.5em;
+    position: relative;
+    margin: -0.5em;
+}
+
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    border: 1px solid var(--border-color-base, #a2a9b1);
+    padding: 0.2em 0.4em;
+}
+
+.mw-parser-output a {
+    word-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+    color: #0645ad;
+    background: none;
+}
+
+b {
+    font-weight: 700;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.wikitable {
+    background-color: var(--background-color-neutral-subtle, #f8f9fa);
+    color: var(--color-base, #202122);
+    border: 1px solid var(--border-color-base, #a2a9b1);
+    border-collapse: collapse;
+}
+
+table {
+    font-size: 100%;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+}
+
+.mw-content-ltr {
+    direction: ltr;
+}
+
+.vector-body {
+    line-height: 1.6;
+}
