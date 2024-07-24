@@ -14,6 +14,8 @@
 }
 
 .personal-data, .survey, .review {
+    width: 87%;
+    height: 33%;
     color: #E7E7E7;
     margin: 2vmin 2vmin 0 2vmin;
     font-family: Arial;

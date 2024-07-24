@@ -5,18 +5,25 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5531F79-5D8F-4110-93D8-77F926D2624D}"
 	ProjectSection(SolutionItems) = preProject
+		mendeleev.css = mendeleev.css
+		mendeleev.html = mendeleev.html
+		ship.css = ship.css
+		ship.html = ship.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "form", "form", "{69C5820F-94C3-4AB9-A5DE-D7A11874CD02}"
+	ProjectSection(SolutionItems) = preProject
 		form.css = form.css
 		form.html = form.html
 		form.js = form.js
-		mendeleev.html = mendeleev.html
-		mendeleev.css = mendeleev.css
-		ship.css = ship.css
-		ship.html = ship.html
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69C5820F-94C3-4AB9-A5DE-D7A11874CD02} = {C5531F79-5D8F-4110-93D8-77F926D2624D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC6D933E-501A-4B34-A600-3EE6A6D1F22F}
