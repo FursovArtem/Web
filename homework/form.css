@@ -45,6 +45,8 @@ input[type=text], input[type=password] {
 }
 
 textarea {
+    background: rgb(212,212,212);
+    background: linear-gradient(135deg, rgba(212,212,212,1) 0%, rgba(238,238,238,1) 50%, rgba(212,212,212,1) 100%);
     color: #0F0F0F;
     font-family: Arial;
     font-size: 16px;
