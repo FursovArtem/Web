@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="form.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="form.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <fieldset class="personal-data">
+                <legend>Ввод личных данных</legend>
+                <label>Введите ваше имя (Не более 20 символов):</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label>Введите ваш пароль (Не более 20 символов):</label><br>
+                <input type="password" id="password" name="password"><br>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="survey">
+                <legend>Опрос</legend>
+                <label>Вам нравится HTML?</label><br>
+                <label for="yes">Да</label>
+                <input type="radio" id="yes" name="yesno">
+                <label for="no">Нет</label>
+                <input type="radio" id="no" name="yesno"><br>
+                <label>Какими HTML редакторами вы пользуетесь?</label><br>
+                <input type="checkbox" id="dreamviewer" name="dreamviewer">
+                <label for="dreamviewer">DreamViewer</label>
+                <input type="checkbox" id="expressionstudio" name="expressionstudio">
+                <label for="expressionstudio">ExpressionStudio</label>
+                <input type="checkbox" id="notepad" name="notepad">
+                <label for="notepad">Notepad++</label><br>
+                <label>На сколько вы оцениваете свои знания HTML?</label><br>
+                <select class="1-10"></select>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="review">
+                <legend>Отзыв</legend>
+                <label>Оставьте свой отзыв о пройденном курсе HTML:</label><br>
+                <textarea id="textarea" name="textarea" rows="7" cols="58"></textarea>
+                <input type="reset" id="reset" name="resetsubmit" onclick="clearText();">
+                <input type="submit" id="submit" name="resetsubmit">
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>

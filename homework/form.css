@@ -1,0 +1,52 @@
+﻿body {
+    background-color: #1B1B1B;
+}
+
+.main {
+    width: 30vw;
+    height: 76vh;
+    border: 2px solid #E7E7E7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 3vh;
+}
+
+.personal-data, .survey, .review {
+    color: #E7E7E7;
+    margin: 2vmin 2vmin 0 2vmin;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+label {
+    color: #E7E7E788;
+    font-size: 18px;
+}
+
+label[for=yes], label[for=no], label[for=dreamviewer], label[for=expressionstudio], label[for=notepad] {
+    color: #E7E7E7;
+}
+
+input[id=yes] {
+    margin-right: 1vw;
+}
+
+input[type=text], input[type=password] {
+    background: rgb(212,212,212);
+    background: linear-gradient(135deg, rgba(212,212,212,1) 0%, rgba(238,238,238,1) 50%, rgba(212,212,212,1) 100%);
+    caret-color: #0F0F0F;
+    border-color: #1B1B1B44;
+    color: #0F0F0F;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+textarea {
+    color: #0F0F0F;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 500;
+}
