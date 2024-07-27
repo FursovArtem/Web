@@ -1,0 +1,105 @@
+﻿body {
+    font-family: Roboto, Arial;
+    background-color: #1B1B1B;
+    color: #E7E7E7;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: #0C0C0C88;
+    z-index: 100;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 140%;
+    font-weight: 500;
+}
+
+main {
+    position: relative;
+    border: 2px dashed #E7E7E7;
+    width: 1150px;
+    height: 1600px;
+    font-size: 140%;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-header {
+    font-size: 130%;
+    font-weight: 600;
+    border: 2px solid #E7E7E788;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 15vw;
+}
+
+.test-body {
+    flex: 16;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 103%;
+    padding: 0 8vw;
+}
+
+.test-body div {
+    width: 100%;
+}
+
+.answers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 90%;
+    margin-top: 5vh;
+    border-bottom: 1px solid #E7E7E744;
+    padding-bottom: 60px;
+}
+
+.answers label {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+}
+
+.test-submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=submit] {
+    font-size: 105%;
+    border-radius: 3%;
+    outline: 2px solid #E7E7E7DD;
+}
+
+.result {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 105%;
+}

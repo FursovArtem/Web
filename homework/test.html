@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Test</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+</head>
+<body onload="loadData(); updatePage();">
+    <div class="header">
+        <div class="full-name"></div>
+        <div class="group"></div>
+    </div>
+    <main>
+        <div class="test-header">Тест на знания HTML & CSS</div>
+        <form class="test-body" action="javascript:void(0);">
+            <div>
+                1. Какой аттрибут нужно установить в &lt;option&gt;&lt;/option&gt; внутри тега &lt;select&gt;&lt;/select&gt; для установки
+                невозможного для выбора варианта по умолчанию?
+                <div class="answers">
+                    <label><input id="q1-1" type="radio" name="q1-answers" required>disabled</label>
+                    <label><input id="q1-2" type="radio" name="q1-answers">selected</label>
+                    <label><input id="q1-3" type="radio" name="q1-answers">hidden</label>
+                    <label><input id="q1-4" type="radio" name="q1-answers">value = ""</label>
+                    <label><input id="q1-5" type="radio" name="q1-answers">Все вместе</label>
+                </div>
+            </div>
+            <div>
+                2. Какое свойство CSS позволяет сделать самую гибкую планировку HTML-страницы в одном измерении?
+                <div class="answers">
+                    <label><input id="q2-1" type="radio" name="q2-answers" required>display: block & inline-block</label>
+                    <label><input id="q2-2" type="radio" name="q2-answers">display: flex</label>
+                    <label><input id="q2-3" type="radio" name="q2-answers">display: grid</label>
+                    <label><input id="q2-4" type="radio" name="q2-answers">position: relative</label>
+                </div>
+            </div>
+            <div>
+                3. Как можно добавить прозрачности цвету?
+                <div class="answers">
+                    <label><input id="q3-1" type="checkbox" name="q3-answers">CSS predefined keywords</label>
+                    <label><input id="q3-2" type="checkbox" name="q3-answers">rgba(0, 0, 0, alpha)</label>
+                    <label><input id="q3-3" type="checkbox" name="q3-answers">#000000ff hex</label>
+                    <label><input id="q3-4" type="checkbox" name="q3-answers">opacity: 0.5</label>
+                </div>
+            </div>
+            <div>
+                4. Какие единицы измерения являются относительными?
+                <div class="answers">
+                    <label><input id="q4-1" type="checkbox" name="q4-answers">px</label>
+                    <label><input id="q4-2" type="checkbox" name="q4-answers">em</label>
+                    <label><input id="q4-3" type="checkbox" name="q4-answers">%</label>
+                    <label><input id="q4-4" type="checkbox" name="q4-answers">pt</label>
+                    <label><input id="q4-5" type="checkbox" name="q4-answers">rem</label>
+                    <label><input id="q4-6" type="checkbox" name="q4-answers">vw</label>
+                    <label><input id="q4-7" type="checkbox" name="q4-answers">in</label>
+                    <label><input id="q4-8" type="checkbox" name="q4-answers">vmin</label>
+                    <label><input id="q4-9" type="checkbox" name="q4-answers">vmax</label>
+                    <label><input id="q4-10" type="checkbox" name="q4-answers">cm</label>
+                    <label><input id="q4-11" type="checkbox" name="q4-answers">vh</label>
+                </div>
+            </div>
+            <div>
+                5. Во что вложиться?
+                <div class="answers">
+                    <label><input id="q5-1" type="checkbox" name="q5-answers"><img class="image" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG5xNnlkaXUybWEwMXdyNWgzbnk3dGM4MWdidnR5dzRvb2IzdWo5eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JVl6jyt5V4WxODOOy4/giphy.webp"></label>
+                    <label><input id="q5-2" type="checkbox" name="q5-answers"><img class="image" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWo5cGl3YTZwY2tyMXl2emFqb3l4ZW53dHM1dnVzdzVra3VyYTNzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/NXGFCol8GTrJpCQee3/giphy.webp"></label>
+                    <label><input id="q5-3" type="checkbox" name="q5-answers"><img class="image" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW5mZzNtcmk4aGV3YnQ3bW02OHprMnVsNHg2aGJyczhkeW95MmUzYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/DdpmhAQpQZzwHSrQ3f/giphy.webp"></label>
+                    <label><input id="q5-4" type="checkbox" name="q5-answers"><img class="image" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHBlbTNqdG5pMmZibGxqdXUwdDM5YzZvYWFscnJyd2Zpa3VtbDZiaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/D92fXn3Dzw8GLQdUtS/giphy.webp"></label>
+                </div>
+            </div>
+            <div class="test-submit">
+                <input type="submit" onclick="checkAnswers()">
+                <div class="result"></div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

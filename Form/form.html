@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="file.php" method="post">
+        <input type="text" placeholder="Login" name="login">
+        <input type="password" placeholder="Password" name="password" maxlength="5">
+        <input type="tel" placeholder="Phone number" name="phone">
+        <input type="email" placeholder="Email" name="email">
+
+        <div class="buttons">
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+
+    <input type="text" placeholder="MM/DD/YYYY" onfocus="(this.type='date')" onblur="(this.type='text')">
+</body>
+</html>

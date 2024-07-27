@@ -1,6 +1,30 @@
 ﻿body{
     background-color: #1B1B1B;
     color: white;
+    margin: 0;
+}
+
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    width: 150px;
+}
+
+.middle-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 300px;
+}
+
+.right-section {
+    width: 200px;
 }
 
 p {
@@ -10,12 +34,7 @@ p {
 }
 
 .thumbnail {
-    width: 300px;
-    display: block;
-}
-
-.search-bar {
-    display: block;
+    width: 100%;
 }
 
 .video-title {
@@ -26,22 +45,9 @@ p {
     margin-bottom: 12px;
 }
 
-.video-preview {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-}
-
-.channel-picture {
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
-}
-
-.video-info {
-    display: inline-block;
-    width: 200px;
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .profile-picture {
@@ -60,4 +66,11 @@ p {
 
 .video-author {
     margin-bottom: 4px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }

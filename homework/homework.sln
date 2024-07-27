@@ -18,12 +18,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "form", "form", "{69C5820F-9
 		form.js = form.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{93319D16-AE6D-4DF2-B66F-A803577A7E8B}"
+	ProjectSection(SolutionItems) = preProject
+		registration.css = registration.css
+		registration.html = registration.html
+		test.css = test.css
+		test.html = test.html
+		test.js = test.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69C5820F-94C3-4AB9-A5DE-D7A11874CD02} = {C5531F79-5D8F-4110-93D8-77F926D2624D}
+		{93319D16-AE6D-4DF2-B66F-A803577A7E8B} = {C5531F79-5D8F-4110-93D8-77F926D2624D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC6D933E-501A-4B34-A600-3EE6A6D1F22F}

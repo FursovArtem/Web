@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+</head>
+<body onload="loadData()">
+    <form action="test.html" method="post">
+        <div class="last-name-input">
+            <input type="text" id="lastName" placeholder="Фамилия" oninput="validateName('lastName');" required>
+        </div>
+        <div class="first-name-input">
+            <input type="text" id="firstName" placeholder="Имя" oninput="validateName('firstName');" required>
+        </div>
+        <div class="middle-name-input">
+            <input type="text" id="middleName" placeholder="Отчество" oninput="validateName('middleName');">
+        </div>
+        <div>
+            <select class="group-select" required>
+                <option disabled selected hidden value="">Выберите вашу группу</option>
+                <option>PD_212</option>
+                <option>PD_321</option>
+                <option>PV_123</option>
+                <option>SPD_121</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <input class="button" type="submit" id="submit" onclick="saveData()">
+            <input class="button" type="reset" id="reset">
+        </div>
+    </form>
+</body>
+</html>
